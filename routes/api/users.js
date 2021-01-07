@@ -12,7 +12,7 @@ const config = require('config');
 // @desc Test route
 // @access Public 
 router.post('/', [
-    check('name', 'Name is required').not().isEmpty(),
+    check('name', 'Name is required').notEmpty(),
     check('email', 'Please include a valid email').isEmail(),
     check('password', 'Password 6 or more char').isLength({min: 6})
 ], 
