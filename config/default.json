@@ -1,6 +1,6 @@
 {
-    "mongoURI": "mongodb+srv://disha1001:disha1001@storydb.to5pi.mongodb.net/MernDB?retryWrites=true&w=majority",
+    "mongoURI": "YOUR_MONGO_URI",
     "secretKeyCode": "secret",
-    "githubClientId": "52e71ae281f234e38052",
-    "githubClientSecret": "a9bf2dc35cfc1d276f0f0fdcba5eaca8e50d5fc5"
+    "githubClientId": "CLIENT_ID",
+    "githubClientSecret": "SECRET"
 }
